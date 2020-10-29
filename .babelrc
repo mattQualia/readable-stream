@@ -8,7 +8,6 @@
       ],
       "modules": "commonjs",
       "exclude": [
-        "transform-regenerator",
         "transform-typeof-symbol"
       ],
       "debug": true

@@ -36,6 +36,7 @@
     "util-promisify": "^2.1.0"
   },
   "scripts": {
+    "build": "babel lib -d build",
     "test": "tap -J --no-esm test/parallel/*.js test/ours/*.js",
     "ci": "TAP=1 tap --no-esm test/parallel/*.js test/ours/*.js | tee test.tap",
     "test-browsers": "airtap test/browser.js",
